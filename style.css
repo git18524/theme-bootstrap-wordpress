@@ -1,0 +1,117 @@
+/* 
+Theme Name: Mon Theme
+*/
+img:first-of-type{
+
+    width: 8em;
+
+}
+
+img{
+
+    width: 10em;
+
+}
+
+#secondContainer button{
+
+    text-align: center;
+    font-size: .62em;
+    font-weight: 600;
+
+}
+
+#firstContainer{
+
+    text-align: center;
+
+}
+
+button{
+
+    text-align: center;
+    font-size: 50%;
+
+}
+
+#name,#email,#phone{
+
+    border-style: none;
+    border-radius: 0%;
+    border-bottom: .07em solid rgb(241, 241, 241);
+    height: 1em;
+    
+
+}
+
+#text{
+
+    border-style: none;
+    border-radius: 0%;
+    border-bottom: .07em solid rgb(241, 241, 241);
+  
+}
+
+footer .container-fluid:first-of-type{
+
+    background-color: rgb(34, 73, 91);
+    width: 100vw;
+    padding-left: 0em;
+    padding-right: 0em;
+}
+
+h6{
+
+    font-size: 71%;
+    margin-top: .4em;
+
+}
+
+#around{
+
+    transform: translateX(-10%);
+}
+
+#textfreelancer{
+
+    transform: translateX(-10%);
+    font-size: 70%;
+
+}
+
+footer span{
+    
+    color: green;
+
+}
+
+footer img{
+
+    border-radius: 50%;
+   
+}
+
+#facebook,#twitter,#linked,#logobasket{
+
+    height:1em;
+    width: 1em;
+    transform: translateX(60%);
+
+}
+   
+footer section:last-of-type{
+
+    box-sizing: border-box;
+
+}
+
+#Copyright{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: small;
+    transform: translateY(40%);
+    font-size: 50%;
+
+}
