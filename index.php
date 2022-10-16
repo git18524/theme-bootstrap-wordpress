@@ -4,7 +4,7 @@
 <div class="container-fluid">
     <div class="row bg-success">
       <div class="col d-flex flex-column align-items-center">
-        <div class="img-circle m-5 "><img src="img/profile.png"></div>
+        <div class="img-circle m-5 "><img src="<?= get_template_directory_uri() ?>/img/profile.png"></div>
 
         <p class="text-light text-uppercase fw-bold">Start Bootstrap</p>
 
@@ -34,20 +34,20 @@
   <div class="p-2 m-1">
     <div class="row d-flex">
       <div class="col">
-        <a><img class="m-1" src="img/portfolio/cabin.png" alt="cabin"></a>
-         <a><img class="m-1" src="img/portfolio/game.png" alt="game"></a>
+        <a><img class="img-fluid m-1" src="<?= get_template_directory_uri() ?>/img/portfolio/cabin.png" alt="cabin"></a>
+         <a><img class="img-fluid m-1" src="<?= get_template_directory_uri() ?>/img/portfolio/game.png" alt="game"></a>
         
       </div>
       <div class="col">
         
-        <a><img class="m-1" src="img/portfolio/cake.png" alt="cake"></a>
-        <a><img class="m-1" src="img/portfolio/safe.png" alt="safe"></a>
+        <a><img class="img-fluid m-1" src="<?= get_template_directory_uri() ?>/img/portfolio/cake.png" alt="cake"></a>
+        <a><img class="img-fluid m-1" src="<?= get_template_directory_uri() ?>/img/portfolio/safe.png" alt="safe"></a>
       
     </div>
       <div class="col">
            
-         <a><img class="m-1" src="img/portfolio/circus.png" alt="circus"></a>
-         <a><img class="m-1" src="img/portfolio/submarine.png" alt="submarine"></a>
+         <a><img class="img-fluid m-1" src="<?= get_template_directory_uri() ?>/img/portfolio/circus.png" alt="circus"></a>
+         <a><img class="img-fluid m-1" src="<?= get_template_directory_uri() ?>/img/portfolio/submarine.png" alt="submarine"></a>
         
       </div>
     </div>
@@ -104,36 +104,6 @@
 </form>
 </main>
 
-<!-- social media and copyright -->
-<footer class="mt-2 ">
-<div id="footerContainerOne"class="container-fluid">  
-  <div class="row text-center">
 
-  <section class="col-6 mr-2">
-    <h6 class="text-uppercase text-light fw-bold">Location</h6>
-    <div class="row">
-   
-        <div class="col-4"><img src="img/facebook.jpg" id="facebook" alt="facebooklogo"></div>
-        <div class="col-4"><img src="img/twitter.jpg" id="twitter"alt="twitterlogo"></div>
-        <div class="col-4"><img src="img/linked.jpg" id="linked" alt="linkedinlogo"></div>
-        <div class="col-4 mb-2"><img src="img/logobasket.jpg" id="logobasket" alt="basketlogo"></div>
-
-
-    </div>
-
-  </section>
-
-<section class="col-6 ml-2">
-  <h6 id="around" class="text-uppercase text-light fw-bold">Around freelancer</h6>
-   <p id="textfreelancer" class="text-light">Freelancer is a free to use, open source Bootstrap theme created by <span>Start Bootstrap</span>.</p>
-
-</section>
-</div>
-</div>
-<div class="container-fluid bg-dark pb-2">
-<p id="Copyright"class="text-light text-center">Copyright &copy; Your Website 2019</p>
-
-
-</div>
 
 <?php get_footer(); ?>
