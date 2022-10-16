@@ -7,10 +7,10 @@
     <h6 class="text-uppercase text-light fw-bold">Location</h6>
     <div class="row">
    
-        <div class="col-4"><img src="img/facebook.jpg" id="facebook" alt="facebooklogo"></div>
-        <div class="col-4"><img src="img/twitter.jpg" id="twitter"alt="twitterlogo"></div>
-        <div class="col-4"><img src="img/linked.jpg" id="linked" alt="linkedinlogo"></div>
-        <div class="col-4 mb-2"><img src="img/logobasket.jpg" id="logobasket" alt="basketlogo"></div>
+        <div class="col-4"><img class="img-fluid rounded-circle w-25 mb-1" src="<?= get_template_directory_uri() ?>/img/facebook.jpg" id="facebook" alt="facebooklogo"></div>
+        <div class="col-4"><img class="img-fluid rounded-circle w-25 mb-1" src="<?= get_template_directory_uri() ?>/img/twitter.jpg" id="twitter"alt="twitterlogo"></div>
+        <div class="col-4"><img class="img-fluid rounded-circle w-25 mb-1" src="<?= get_template_directory_uri() ?>/img/linked.jpg" id="linked" alt="linkedinlogo"></div>
+        <div class="col-4 mb-2"><img class="img-fluid rounded-circle w-25 mb-1" src="<?= get_template_directory_uri() ?>/img/logobasket.jpg" id="logobasket" alt="basketlogo"></div>
 
 
     </div>
