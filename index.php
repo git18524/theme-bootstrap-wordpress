@@ -90,15 +90,15 @@
 
 <form class="container-fluid">  
   <div class="container"> 
-    <label for="name" class="text-secondary">Name</label>
-  <input type="text" id="name" class="form-control mb-3" aria-describedby="Name">
+    <label for="text" class="text-secondary">Name</label>
+  <input type="text" id="name" class="form-control mb-3" aria-describedby="text">
 
   <label for="email" class="text-secondary">Email Address</label>
 <input type="text" id="email" class="form-control mb-3" aria-describedby="email">
 <label for="phone" class="text-secondary">Phone Number</label>
 <input type="text" id="phone" class="form-control mb-3" aria-describedby="phone">
-<label for="message" class="text-secondary">Message</label>
-<input type="text" id="text" class="form-control mb-3 pb-5"  aria-describedby="message">
+<label for="text" class="text-secondary">Message</label>
+<input type="text" id="text" class="form-control mb-3 pb-5"  aria-describedby="text">
 <button class="btn btn-success">Send</button></div>
  
 </form>
