@@ -4,7 +4,7 @@
   <div class="row text-center">
 
   <section class="col-6 mr-2">
-    <h6 class="text-uppercase text-light fw-bold">Location</h6>
+    <h6 class="text-uppercase text-dark fw-bold">Location</h6>
     <div class="row">
    
         <div class="col-4"><img class="img-fluid rounded-circle w-25 mb-1" src="<?= get_template_directory_uri() ?>/img/facebook.jpg" id="facebook" alt="facebooklogo"></div>
@@ -18,8 +18,8 @@
 
   </section>
 <section class="col-6 ml-2">
-  <h6 id="around" class="text-uppercase text-light fw-bold">Around freelancer</h6>
-   <p id="textfreelancer" class="text-light">Freelancer is a free to use, open source Bootstrap theme created by <span>Start Bootstrap</span>.</p>
+  <h6 id="around" class="text-uppercase text-dark fw-bold">Around freelancer</h6>
+   <p id="textfreelancer" class="text-dark">Freelancer is a free to use, open source Bootstrap theme created by <span>Start Bootstrap</span>.</p>
 
 </section>
 </div>
